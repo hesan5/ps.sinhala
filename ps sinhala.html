@@ -53,20 +53,20 @@
     // ❌ Block copy
     document.addEventListener('copy', function(e) {
       e.preventDefault();
-      alert("ඔයාට මේ content එක copy කරන්න බැහැ!");
+      
     });
 
     // ❌ Block right-click
     document.addEventListener('contextmenu', function(e) {
       e.preventDefault();
-      alert("Right-click block කරලා තියෙනවා!");
+      
     });
 
     // ❌ Block Ctrl+U (view source)
     document.addEventListener('keydown', function (e) {
       if (e.ctrlKey && (e.key === 'u' || e.key === 'U')) {
         e.preventDefault();
-        alert("View Source Block කරලා තියෙනවා!");
+       
       }
     });
   </script>
