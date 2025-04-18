@@ -1,6 +1,48 @@
 <!DOCTYPE html>
 <html lang="si">
 <head>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala&display=swap');
+
+  body {
+    font-family: 'Noto Sans Sinhala', sans-serif;
+    margin: 0;
+    padding: 40px;
+    background-color: #fff;
+    position: relative;
+  }
+
+  .watermark {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    font-size: 70px;
+    color: rgba(0, 0, 0, 0.05);
+    z-index: 0;
+    pointer-events: none;
+    user-select: none;
+    white-space: nowrap;
+  }
+
+  .lesson {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 80px;
+  }
+
+  h2 {
+    font-size: 26px;
+    color: #222;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #333;
+  }
+</style>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Lesson 1 - Photoshop කියන්නෙ මොකද්ද?</title>
@@ -54,7 +96,8 @@
   </style>
 </head>
 <body>
-
+ <div class="watermark">PS Sinhala HESHAN </div>
+  
   <h1>📖 පාඩම 1: Photoshop කියන්නේ මොකක්ද?</h1>
 
   <p>Photoshop කියන්නේ <strong>Adobe</strong> සමාගමේ බලයමත් software එකක්. මේක හරහා අපි photos edit කරන්න, design create කරන්න, banner, poster, logo හදන්න වගේ වැඩ ගොඩක් කරන්න පුළුවන්.</p>
